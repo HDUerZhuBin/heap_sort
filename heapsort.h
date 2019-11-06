@@ -22,6 +22,12 @@
 #ifndef __HEAPSORT_H__
 #define __HEAPSORT_H__
 
+void swap(float* a,float* b);
+
+
+//将一组存储在数组中的无序序列转换为大顶堆
+void max_heapify(float arr[],int len_arr);
+void heap_sort(float arr[],int len_arr);
 
 
 #endif
